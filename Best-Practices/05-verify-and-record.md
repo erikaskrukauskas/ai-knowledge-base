@@ -2,7 +2,7 @@
 title: Verify and record
 tags: [practices, verification, lessons]
 status: verified
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Verify and record
@@ -14,7 +14,8 @@ A change is done when the check you named has been run and the result matches th
 - Run the test, command, query, or review that the task called done.
 - Cover the path you changed and the nearby path that shares its state or data.
 - For a documentation change in this repo, search for the old wording and an existing page on the same topic.
-- Report the command and the result. If a check could not be run, say which check and why.
+- Report the command and the result. A claim that the check passed is not the result. If a check could not be run, say which check and why.
+- For a change the user can see, compare a screenshot of the result with the requested design. Do not accept "it looks right" without that comparison.
 
 ## Record a lesson when
 

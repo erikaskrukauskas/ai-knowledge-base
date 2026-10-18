@@ -2,7 +2,7 @@
 title: Reproduce before you fix
 tags: [practices, debugging, verification]
 status: verified
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Reproduce before you fix
@@ -22,4 +22,4 @@ Cursor's Debug mode docs say to use it when you can reproduce a bug but cannot s
 - The task is a known local edit with one obvious change.
 - You cannot reproduce the bug. Say so, and do not invent a fix from a hypothesis. See [Verify and record](05-verify-and-record.md).
 
-Describe the expected behavior and the actual behavior, including the error text. Follow the reproduction steps the same way each time. After the fix works, remove the logs you added to observe it.
+Describe the expected behavior and the actual behavior, including the error text. Follow the reproduction steps the same way each time. When you can express the bug as a test, write the failing test first, then fix the product code. After the fix works, remove the logs you added to observe it. Do not silence the check. See [Do not suppress a failing check](31-do-not-suppress-a-failing-check.md).

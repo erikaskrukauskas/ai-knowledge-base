@@ -2,7 +2,7 @@
 title: Choose a rule or a skill
 tags: [practices, rules, skills, agents]
 status: verified
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Choose a rule or a skill
@@ -21,9 +21,9 @@ Cursor discovers skills and "the agent is presented with available skills and de
 
 - The steps are a procedure the agent needs for some tasks and not others.
 - The procedure includes a script, a template, or a reference that should load only when used.
-- You want to invoke it yourself with `/skill-name`. Set `disable-model-invocation: true` so the agent does not apply it on its own.
+- You want to invoke it yourself with `/skill-name`. Set `disable-model-invocation: true` so the agent does not apply it on its own. Use that for a workflow with side effects, such as creating a pull request.
 
-Write the description as the routing test: what the skill does and when to use it. A vague description makes the agent load it at the wrong time.
+Write the description as the routing test: what the skill does and when to use it. A vague description makes the agent load it at the wrong time. Put the decision and the stop condition at the top. Compaction keeps the start of a skill and drops the rest. See [Explore the context window](https://code.claude.com/docs/en/context-window).
 
 ## Other surfaces
 

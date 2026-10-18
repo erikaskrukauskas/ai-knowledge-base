@@ -2,7 +2,7 @@
 title: Best practices index
 tags: [practices, index]
 status: verified
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Best practices
@@ -41,3 +41,13 @@ These pages are the stable AI engineering practices. Lessons in `Lessons-Learned
 | [Closer instructions are read last](28-closer-instructions-are-read-last.md) | Two instruction files disagree |
 | [Audit instructions when they go stale](29-audit-instructions-when-they-go-stale.md) | A model, command, or path in an instruction file may be old |
 | [A deny rule wins](30-a-deny-rule-wins.md) | Allow and deny rules could match the same action |
+| [Do not suppress a failing check](31-do-not-suppress-a-failing-check.md) | A test or build failed and the agent might hide it |
+| [Review in a fresh context](32-review-in-a-fresh-context.md) | The author of a change should not be the one who grades it |
+| [Restart after repeated corrections](33-restart-after-repeated-corrections.md) | The same mistake has been corrected twice in one session |
+| [Instructions hold what the code does not show](34-instructions-hold-what-the-code-does-not-show.md) | Deciding which lines belong in an instruction file |
+| [Approve an external instruction import](35-approve-an-external-instruction-import.md) | An instruction file pulls in a path outside the project |
+| [Cap a hook that continues the agent](36-cap-a-hook-that-continues-the-agent.md) | A hook can send the agent back to work |
+| [Say why you denied](37-say-why-you-denied.md) | You are about to block an agent action |
+| [Compare models in separate checkouts](38-compare-models-in-separate-checkouts.md) | More than one model might do the same task |
+| [Prefer the service CLI](39-prefer-the-service-cli.md) | A service already has a command-line tool |
+| [Review a plugin before you install it](40-review-a-plugin-before-you-install-it.md) | A plugin would add hooks, skills, or servers |

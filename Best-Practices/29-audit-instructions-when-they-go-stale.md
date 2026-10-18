@@ -2,7 +2,7 @@
 title: Audit instructions when they go stale
 tags: [practices, instructions, maintenance]
 status: verified
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Audit instructions when they go stale
@@ -23,4 +23,4 @@ Claude Code’s `/doctor prompt-audit` looks for instructions written for older 
 - Update `updated` on a page in this library when the product fact changed.
 - Prefer the current official page over an old lesson when they disagree. See [Context and retrieval](03-context-and-retrieval.md).
 
-Target under 200 lines in a project `CLAUDE.md`. Longer files cost context and are followed less consistently. Move a rule that applies to one path into a path-scoped rule or a skill. See [Choose a rule or a skill](13-choose-a-rule-or-a-skill.md).
+Target under 200 lines in a project `CLAUDE.md`. Longer files cost context and are followed less consistently. For each line, ask whether removing it would cause a mistake. If it would not, cut it. Move a rule that applies to one path into a path-scoped rule or a skill. See [Choose a rule or a skill](13-choose-a-rule-or-a-skill.md) and [Instructions hold what the code does not show](34-instructions-hold-what-the-code-does-not-show.md).

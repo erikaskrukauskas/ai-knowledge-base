@@ -2,7 +2,7 @@
 title: Plan before a large change
 tags: [practices, planning, workflow]
 status: verified
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Plan before a large change
@@ -22,4 +22,4 @@ Cursor's Plan mode docs say it "creates detailed implementation plans before wri
 
 Revert the changes and edit the plan. Do not keep prompting the same implementation until it drifts. The docs say going back to the plan is often faster than fixing an in-progress agent.
 
-Save the plan in the project when later sessions or other people need it. Leave a one-off plan in the home directory.
+Save the plan in the project when later sessions or other people need it. Leave a one-off plan in the home directory. After the plan is specific, start a fresh session to implement it so the exploration does not crowd the edit. See [One chat per outcome](17-one-chat-per-outcome.md).

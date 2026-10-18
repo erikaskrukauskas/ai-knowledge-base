@@ -2,7 +2,7 @@
 title: One chat per outcome
 tags: [practices, context, workflow]
 status: verified
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # One chat per outcome
@@ -24,3 +24,5 @@ Codex's best-practices guide says to keep one chat per coherent unit of work, be
 - Hand a long side investigation to a subagent instead of pasting it into the parent. See [Delegate to a subagent](10-delegate-to-a-subagent.md).
 
 When the same chat is still the right one but the transcript is long, compact it. In Codex, `/compact` summarizes earlier context. Durable instructions belong in `AGENTS.md` or `CLAUDE.md`, which are read again after compaction, not in the old transcript. See [Context and retrieval](03-context-and-retrieval.md).
+
+Name the session after the outcome so you can resume it later. A side question that should not stay in the transcript uses a side channel such as `/btw`, which answers without adding to the conversation. See [Best practices for Claude Code](https://code.claude.com/docs/en/best-practices).
