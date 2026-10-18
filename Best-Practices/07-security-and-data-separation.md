@@ -35,4 +35,4 @@ A local checkout can stay on one machine. A remote API or ChatGPT connector need
 
 ## Agent behavior
 
-Do not ask an agent to paste secrets into a lesson so the next session can "just work." Point to the secret's name and the approved place it is loaded from.
+Do not ask an agent to paste secrets into a lesson so the next session can "just work." Point to the secret's name and the approved place it is loaded from. When a secret or a destructive command must be blocked even if the agent ignores that instruction, use a hook. See [Use a hook to enforce](11-use-a-hook-to-enforce.md). Leave approval and the sandbox at their defaults until a specific workflow needs more access. See [Keep approval tight by default](18-keep-approval-tight-by-default.md).

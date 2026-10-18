@@ -25,6 +25,12 @@ You are in the AI knowledge base. Other projects consult this repo for AI engine
 
 Use `superseded` when a newer document replaces this one. Keep the old file so past references still resolve.
 
+## Knowledge maintenance
+
+- A topic this repo does not yet cover: `.cursor/skills/add-uncovered-ai-topic/SKILL.md`
+- Whether pages already here still match current sources: `.cursor/skills/review-covered-ai-topics/SKILL.md`
+- What changed recently across Cursor, OpenAI, Anthropic, Claude, Codex, ChatGPT, MCP, Stack Overflow, or Reddit: `.cursor/skills/check-ai-work-updates/SKILL.md`
+
 ## Before you finish a documentation change
 
 Search for an existing page on the same topic:

@@ -14,6 +14,7 @@ Load the slice that can change the decision. Leave the rest in the source file u
 - The practice or lesson whose tags match the decision.
 - The project's local rules and the files the change will touch.
 - The current official page when the answer depends on a product's present behavior.
+- A question that must not change files. Use a read-only mode for that pass. See [Answer without editing](14-answer-without-editing.md).
 
 ## What to avoid loading
 
@@ -21,6 +22,7 @@ Load the slice that can change the decision. Leave the rest in the source file u
 - Superseded lessons, unless you need to understand why they were replaced.
 - Project-specific decisions from an unrelated repository.
 - Secrets, tokens, or private data that the task does not require.
+- A long investigation that a subagent can return as a short result. See [Delegate to a subagent](10-delegate-to-a-subagent.md).
 
 ## Order of trust
 

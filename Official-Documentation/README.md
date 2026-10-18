@@ -22,6 +22,10 @@ When a practice page and an official page disagree about a product feature, the 
 
 Confirm the exact page before you rely on a feature. These entry points are starting URLs, not a frozen specification.
 
+## Update check
+
+`check-ai-work-updates` scans Cursor, OpenAI, Anthropic, Claude Code, Codex, MCP, Stack Overflow, and Reddit for recent workflow changes. `review-covered-ai-topics` rechecks topics this library already documents. `add-uncovered-ai-topic` adds a topic that has no page yet. Source URLs and the fetch command are in `.cursor/skills/check-ai-work-updates/`. Checks write reports under `Official-Documentation/updates/`.
+
 ## How to add a source
 
 Add a row with the official entry URL, the date you checked it, and the decision it supports. Keep domain product docs (warehouses, BI tools, mobile SDKs, CI vendors) in the domain knowledge repo that owns that subject.

@@ -14,7 +14,7 @@ An agent does better work from a bounded task than from a topic. Write the outco
 - The result a user or caller can observe.
 - The files, modules, or documents in scope.
 - Constraints that are easy to violate: public API, data shape, supported runtime, files to leave alone.
-- The check that defines done: a test, a command, a document review, a query result.
+- The check that defines done: a test, a command, a document review, a query result. Put the project's build and test commands in the project instruction file so the next session can run them. See [How Claude remembers your project](https://code.claude.com/docs/en/memory).
 - Relevant versions when product behavior matters.
 
 ## Leave out

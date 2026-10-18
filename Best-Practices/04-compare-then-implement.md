@@ -20,7 +20,7 @@ Compare when more than one design could satisfy the task and the wrong choice is
 - The option you will implement.
 - What you looked at: a practice page, a lesson, official docs, or the existing code.
 
-Skip the comparison write-up for a local fix with one obvious edit.
+Skip the comparison write-up for a local fix with one obvious edit. For a large or unclear change, get the plan approved before editing. See [Plan before a large change](12-plan-before-a-large-change.md).
 
 ## Check the version
 
